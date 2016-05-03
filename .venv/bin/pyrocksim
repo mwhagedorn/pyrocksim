@@ -1,0 +1,10 @@
+#!/Users/mwhagedorn/develop/rocket_simulations/pyrocketsim/.venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'pyrocketsim==0.1','console_scripts','pyrocksim'
+__requires__ = 'pyrocketsim==0.1'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('pyrocketsim==0.1', 'console_scripts', 'pyrocksim')()
+    )

@@ -1,0 +1,3 @@
+{
+  "pyrocketsim/engines/tests/parser_test.py::ParserTest::test_interpolates_large_engine_data": true
+}

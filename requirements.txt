@@ -1,0 +1,8 @@
+couchbase==2.0.7
+nose2==0.5.0
+pyyaml==3.11
+untangle==1.1.0
+click==6.2
+prettytable==0.7.2
+scipy==0.17.0
+termcolor

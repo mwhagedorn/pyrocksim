@@ -1,0 +1,23 @@
+common: &common
+  hostname: localhost
+  port: 8091
+  username:
+  password:
+  pool: default
+
+development:
+  <<: *common
+  bucket: pocket_rocket
+
+test:
+  <<: *common
+  bucket: dermoscan_test
+
+# set these environment variables on your production server
+production:
+  hostname: <%= ENV['COUCHBASE_HOST'] %>
+  port: <%= ENV['COUCHBASE_PORT'] %>
+  username: <%= ENV['COUCHBASE_BUCKET']%>
+  password: <%= ENV['COUCHBASE_BUCKET_PASS'] %>
+  pool: <%= ENV['COUCHBASE_POOL'] %>
+  bucket: <%= ENV['COUCHBASE_BUCKET'] %>

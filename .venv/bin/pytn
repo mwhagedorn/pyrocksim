@@ -1,0 +1,10 @@
+#!/Users/mwhagedorn/develop/rocket_simulations/pyrocketsim/.venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'click-tutorial==0.2.5+1.g876d258','console_scripts','pytn'
+__requires__ = 'click-tutorial==0.2.5+1.g876d258'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('click-tutorial==0.2.5+1.g876d258', 'console_scripts', 'pytn')()
+    )
